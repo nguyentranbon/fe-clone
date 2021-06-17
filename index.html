@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unibox</title>
+    <!-- Link css bootstrap 4 -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <!-- Link css flickity -->
+    <link rel="stylesheet" href="assets/carousel/flickity.css">
+    <!-- link custom css -->
+    <link rel="stylesheet" href="assets/scss/style.css">
+</head>
+
+<body>
+    <div class="uni-wrapper">
+        <!--  header -->
+        <header id="uni-header" class="uni-header">
+            <div class="row relative">
+                <div class="col-6 col-xl-2 col-lg-3">
+                    <div class="uni-header__logo">
+                        <img class="uni-header__img" src="assets/images/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-6 col-xl-10 col-lg-9">
+                    <!-- nav -->
+                    <nav class="uni-header__menu">
+                        <a class="uni-header__toggle" href="#">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                        <ul class="uni-header__list d-none d-lg-block">
+                            <li class="uni-header__item uni-header__item-children active">
+                                <a href="#">Home</a>
+                                <ul class="uni-header__dropdown">
+                                    <li class="uni-header__item "><a href="#">Home 2</a></li>
+                                    <li class="uni-header__item"><a href="#">Home 2</a></li>
+                                    <li class="uni-header__item"><a href="#">Home 2</a></li>
+                                    <li class="uni-header__item"><a href="#">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="uni-header__item uni-header__item-children">
+                                <a href="#">Pages</a>
+                                <ul class="uni-header__dropdown">
+                                    <li class="uni-header__item uni-header__item__has-child ">
+                                        <a href="#">Pages 2</a>
+                                        <ul class="uni-header__dropdown uni-header__sub-dropdown">
+                                            <li class="uni-header__item "><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="uni-header__item"><a href="#">Pages 2</a></li>
+                                    <li class="uni-header__item uni-header__item__has-child ">
+                                        <a href="#">Pages 2</a>
+                                        <ul class="uni-header__dropdown uni-header__sub-dropdown">
+                                            <li class="uni-header__item "><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                            <li class="uni-header__item"><a href="#">Pages 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="uni-header__item"><a href="#">Pages 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="uni-header__item uni-header__item-children">
+                                <a href="#">Features</a>
+                                <ul class="uni-header__dropdown uni-header__mega-dropdown">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <ul class="uni-header__mega-group">
+                                                <li class="uni-header__item">
+                                                    <a href="#">Features 2</a>
+                                                    <ul class="uni-header__mega-dropdown__child">
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="uni-header__mega-group">
+                                                <li class="uni-header__item">
+                                                    <a href="#">Features 2</a>
+                                                    <ul class="uni-header__mega-dropdown__child">
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="uni-header__mega-group">
+                                                <li class="uni-header__item">
+                                                    <a href="#">Features 2</a>
+                                                    <ul class="uni-header__mega-dropdown__child">
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                        <li class="uni-header__item"><a href="#">Features 3</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="uni-header__item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="uni-header__item">
+                                <a href="#">Shop</a>
+                            </li>
+                            <li class="uni-header__item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="uni-header__item menu-btn">
+                                <a href="#">Request a Quote</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- end-nav -->
+                </div>
+            </div>
+        </header>
+        <!-- end-header -->
+        <!-- Main content -->
+        <main class="main-body">
+        <!---OFFICE Location-->
+        <section class="office-location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="office-location__content">
+                            <h5 class="section-sub__title">send message</h5>
+                            <h3 class="section-heading__title">
+                                Drop <strong>us a line</strong>
+                            </h3>
+                            <h6 class="section-subheading__title">Working alongside clients on their most critical challenges.</h6>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End OFFICE LOCATION -->
+        <!-- Contact -->
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-col contact-col-12 contact-img">
+                </div>
+                <div class="contact-col">
+                    <div class="contact-content">
+                        <h5 class="section-sub__title">send message</h5>
+                        <h3 class="section-heading__title">
+                            Drop <strong>us a line</strong>
+                        </h3>
+                        <div class="contact-form">
+                            <form action="#">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6"><input type="text" name="name" class="sppb-form-control" placeholder="Name" required="required"></div>
+                                        <div class="col-12 col-lg-6"><input type="email" name="email" class="sppb-form-control" placeholder="Email" required="required"></div>
+                                        <div class="col-12 col-lg-6"><input type="text" name="phone" class="sppb-form-control" placeholder="Phone" required="required"></div>
+                                        <div class="col-12 col-lg-6"><input type="text" name="subject" class="sppb-form-control" placeholder="Subject" required="required"></div>
+                                        <div class="col-12">
+                                            <textarea name="message" rows="5" class="sppb-form-control" placeholder="Message" required="required"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn uni-btn__primary" type="submit">Send Message</button>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End contact -->
+        </main>
+        <!-- End main content -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="footer-column">
+                                <div class="footer-logo">
+                                    <img src="assets/images/logo-footer.png" alt="logo footer">
+                                    <p class="footer-logo__text">World's leading management consulting firms, where bold thinking, inspired people and a passion for results come together for extraordinary impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <div class="footer-column">
+                                <ul class="footer-list">
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Pay Bill</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">My Account</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Manage Users</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Move Services</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Forum</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Customers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <div class="footer-column">
+                                <ul class="footer-list">
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Pay Bill</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">My Account</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Manage Users</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Move Services</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Forum</a></li>
+                                    <li><i class="fas fa-caret-right"></i><a href="#">Customers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="footer-column">
+                                <h5 class="pc-section__title">Subscribe to Stay in Touch</h5>
+                                <div class="pc-module__form-content">
+                                    <form action="#">
+                                        <div class="pc-module__form-group email-swrap">
+                                            <input type="email" name="email" class="sppb-form-control" placeholder="Email" required="required" aria-label="email">
+                                        </div>
+                                        <div class="oc-module__button button-wrap">
+                                            <button><i class="fas fa-pencil-alt" aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="pc-module__social pc-module__social-footer">
+                                    <ul class="social__list social__list-footer">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-copy__text">© Copyright 2020 All Rights</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end-footer -->
+        <!--Off canvas overlay-->
+        <div class="offcanvas-overlay"></div>
+        <div class="offcanvas-menu">
+            <a href="#" class="offcanvas-close"><i class="fas fa-times"></i></a>
+            <div class="offcanvas-inner">
+                <div class="pc-module d-none d-lg-block">
+                    <div class="pc-module__content">
+                        <div class="pc-module__logo">
+                            <a href="" class="pc-module__link">
+                                <img src="assets/images/logo-dark.png" alt="logo-dark">
+                            </a>
+                        </div>
+                        <div class="pc-module__post-recent">
+                            <!-- Post  Recent -->
+                            <div class="pc-module__post-content">
+                                <h5 class="pc-module__post-title pc-section__title">Recent post</h5>
+                                <ul class="pc-module__latest-new">
+                                    <li class="pc-module__post-item">
+                                        <div class="pc-module__post-image"></div>
+                                        <div class="pc-module__post-body">
+                                            <h4 class="pc-module__item-title">
+                                                <a href="#" title="name"> Sapien Lorem Libero Augue Tincidunt Ipsum </a>
+                                            </h4>
+                                            <p class="pc-module__post-meta">
+                                                <i class="far fa-clock"></i> 2020-05-11
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="pc-module__post-item">
+                                        <div class="pc-module__post-image"></div>
+                                        <div class="pc-module__post-body">
+                                            <h4 class="pc-module__item-title">
+                                                <a href="#" title="name"> Sapien Lorem Libero Augue Tincidunt Ipsum </a>
+                                            </h4>
+                                            <p class="pc-module__post-meta">
+                                                <i class="far fa-clock"></i> 2020-05-11
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Post Recent -->
+                            <div class="pc-module__about-content">
+                                <h5 class="pc-section__title">About</h5>
+                                <p>World's leading management consulting firms, where bold thinking, inspired people and
+                                    a passion for results come together for extraordinary impact.</p>
+                            </div>
+                            <!-- Nav-content -->
+                            <div class="pc-module__subscribe-content">
+                                <h5 class="pc-section__title">Subscribe</h5>
+                                <div class="pc-module__form-content">
+                                    <form action="#">
+                                        <div class="pc-module__form-group email-swrap">
+                                            <input type="email" name="email" class="sppb-form-control"
+                                                placeholder="Email" required="required" aria-label="email">
+                                        </div>
+                                        <div class="oc-module__button button-wrap">
+                                            <button><i class="fas fa-pencil-alt" aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                           <!--  End Nav- content -->
+
+                            <!-- social -->
+                            <div class="pc-module__social">
+                                <ul class="social__list">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- end social -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mb-module">
+                    <div class="mb-module__menu">
+                        <ul class="mb-module__list">
+                            <li class="mb-module__item mb-module__item-parent current-item">
+                                <a href="#">Home</a>
+                                <ul class="mb-module__list mb-module__menu-child">
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="mb-module__item mb-module__item-parent">
+                                <a href="#">Pages</a>
+                                <ul class="mb-module__list mb-module__menu-child">
+                                    <li><a href="#">Pages 2</a></li>
+                                    <li><a href="#">Pages 2</a></li>
+                                    <li class="mb-module__item-parent">
+                                        <a href="#">Pages 2</a>
+                                        <ul class="mb-module__list mb-module__menu-child">
+                                            <li><a href="#">Page 3</a></li>
+                                            <li><a href="#">Page 3</a></li>
+                                            <li><a href="#">Page 3</a></li>
+                                            <li><a href="#">Page 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages 2</a></li>
+                                    <li><a href="#">Pages 2</a></li>
+                                    <li><a href="#">Pages 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">Features</a>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">Shop</a>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">Request a Quote</a>
+                            </li>
+                            <li class="mb-module__item">
+                                <a href="#">800 123 4567</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End canvas overlay -->
+    </div>
+
+
+
+
+    <!-- Link script jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Link script bootstrap 4 -->
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <!-- Link script flickity -->
+    <script src="assets/carousel/flickity.pkgd.min.js"></script>
+    <!-- Link main css -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

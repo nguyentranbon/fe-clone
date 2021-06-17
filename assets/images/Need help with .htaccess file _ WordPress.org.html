@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Need help with .htaccess file | WordPress.org</title>
+<meta name="referrer" content="always">
+
+		<link href="./Need help with .htaccess file _ WordPress.org_files/css" rel="stylesheet" type="text/css">
+
+		<link rel="stylesheet" href="./Need help with .htaccess file _ WordPress.org_files/wp4.css">
+
+<link rel="shortcut icon" href="https://s.w.org/favicon.ico?2" type="image/x-icon">
+<link rel="pingback" href="https://wordpress.org/support/xmlrpc.php"><meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<script type="text/javascript" async="" src="./Need help with .htaccess file _ WordPress.org_files/analytics.js.download"></script><script async="" src="./Need help with .htaccess file _ WordPress.org_files/gtm.js.download"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P24PF4B');</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wordpress.org\/support\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8-beta2-51167"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Need help with .htaccess file _ WordPress.org_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="dashicons-css" href="./Need help with .htaccess file _ WordPress.org_files/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="admin-bar-css" href="./Need help with .htaccess file _ WordPress.org_files/admin-bar.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="./Need help with .htaccess file _ WordPress.org_files/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="bbp-default-css" href="./Need help with .htaccess file _ WordPress.org_files/bbpress.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="helphub-contributors-css" href="./Need help with .htaccess file _ WordPress.org_files/helphub-contributors-public.css" type="text/css" media="all">
+<link rel="stylesheet" id="forum-wp4-style-css" href="./Need help with .htaccess file _ WordPress.org_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="table-of-contents-css" href="./Need help with .htaccess file _ WordPress.org_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./Need help with .htaccess file _ WordPress.org_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://wordpress.org/support/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wordpress.org/support/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wordpress.org/support/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.8-beta2-51167">
+<link rel="shortlink" href="https://wordpress.org/support/?p=10733803">
+<link rel="canonical" href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/">
+<!-- Stream WordPress user activity plugin v3.6.2 -->
+	<style>
+		@media screen and (max-width: 782px) {
+			#wpadminbar li#wp-admin-bar-log-in,
+			#wpadminbar li#wp-admin-bar-register {
+				display: block;
+			}
+
+			#wpadminbar li#wp-admin-bar-log-in a,
+			#wpadminbar li#wp-admin-bar-register a {
+				padding: 0 8px;
+			}
+		}
+	</style>
+<meta name="og:description" content="[This thread is closed.] I am working for a small organization to update their site to a new/fresh WordPress theme. Things are going well, but I do…">
+<meta name="description" content="[This thread is closed.] I am working for a small organization to update their site to a new/fresh WordPress theme. Things are going well, but I do…">
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Need help with .htaccess file">
+<meta property="og:url" content="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/">
+<meta property="og:description" content="Support » Fixing WordPress » Need help with .htaccess file Need help with .htaccess file einstem (@einstem) 2 years, 8 months ago I am working for a small organization to update their s…">
+<meta property="article:published_time" content="2018-09-28T18:26:38+00:00">
+<meta property="article:modified_time" content="2018-09-28T18:26:38+00:00">
+<meta property="og:site_name" content="WordPress.org Forums">
+<meta property="og:image" content="https://s.w.org/images/backgrounds/wordpress-bg-medblue.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@WordPress">
+<meta name="twitter:text:title" content="Need help with .htaccess file">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s.w.org/images/backgrounds/wordpress-bg-medblue-square.png">
+
+<!-- End Jetpack Open Graph Tags -->
+			<style type="text/css" id="wp-custom-css">
+				/* Style image captions */
+.wp-block-image figcaption {
+  font-size: 0.8em;
+  color: #606a73;
+  text-align: center;
+}
+figure.wp-block-image {
+  margin: 1em 40px 1em 0;
+  /* Caps Table on https://wordpress.org/support/article/roles-and-capabilities/#capability-vs-role-table see https://meta.trac.wordpress.org/ticket/5033
+ * There's a patch for that ticket. 
+ * */
+  /*body.postid-10937050 {
+	table {
+    font-size: 80%;
+	}
+  th {
+    transform: rotate(-67deg);
+    text-align: center;
+    padding: 24px 0 25px 12px;
+  }
+  td:not(:first-child) {
+    text-align: center;
+  }
+}
+*/
+}
+.changelog {
+  border-bottom: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  padding: 20px;
+}
+			</style>
+		<script>document.cookie='devicePixelRatio='+((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio)+'; path=/';</script>
+
+</head>
+
+
+<body id="wordpress-org" class="js topic bbpress topic-template-default single single-topic postid-10733803 admin-bar no-customize-support wporg-responsive wporg-support helphub-with-sidebar">
+<script type="text/javascript">document.body.className = document.body.className.replace('no-js','js');</script>
+		<div id="wpadminbar" class="nojq">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://wordpress.org/about/"><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" href="https://wordpress.org/about/">About WordPress</a></li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" href="https://wordpress.org/support/">Documentation</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/forums/">Support</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li></ul></div></li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://wordpress.org/support/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150"><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"></form></div></li><li id="wp-admin-bar-log-in"><a class="ab-item" href="https://login.wordpress.org/?locale=en_US">Log In</a></li><li id="wp-admin-bar-register"><a class="ab-item" href="https://login.wordpress.org/register?locale=en_US">Register</a></li></ul>			</div>
+					</div>
+
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P24PF4B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<div id="wporg-header">
+	<div class="wrapper">
+<a class="skip-link screen-reader-text" href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#content">Skip to content</a>	<h1><a href="https://wordpress.org/">WordPress.org</a></h1>				<div style="clear:both"></div>
+		<button id="mobile-menu-button" aria-expanded="false"><span class="screen-reader-text">Toggle Menu</span></button>
+		
+<nav aria-label="Main Menu">
+<ul id="wporg-header-menu" class=" nav-menu">
+<li class="menu-item"><a href="https://wordpress.org/showcase/" data-title="See some of the sites built on WordPress.">Showcase</a></li>
+<li class="menu-item"><a href="https://learn.wordpress.org/" data-title="Resources to help you learn more about WordPress and teach it to others.">Learn</a></li>
+<li class="menu-item"><a href="https://wordpress.org/themes/" data-title="Find just the right look for your website.">Themes</a></li>
+<li class="menu-item"><a href="https://wordpress.org/plugins/" data-title="Plugins can extend WordPress to do almost anything you can imagine.">Plugins</a></li>
+<li class="menu-item"><a href="https://wordpress.org/mobile/" data-title="Take your website on the go!">Mobile</a></li>
+<li class="menu-item"><a href="https://wordpress.org/support/" data-title="Forums, documentation, help." aria-current="true" class="current">Support</a><ul class="nav-submenu"><li><a href="https://wordpress.org/support/" title="Documentation, tutorials, best practices.">Documentation</a></li><li><a href="https://wordpress.org/support/forums/" title="Support and discussion forums.">Forums</a></li></ul><div class="uparrow"></div></li>
+<li class="menu-item"><a href="https://make.wordpress.org/" data-title="Contribute your knowledge.">Get Involved</a><ul class="nav-submenu"><li><a href="https://wordpress.org/five-for-the-future/" title="How five percent is powering the next generation of the web">Five for the Future</a></li></ul><div class="uparrow"></div></li>
+<li class="menu-item"><a href="https://wordpress.org/about/" data-title="About the WordPress Organization, and where we&#39;re going.">About</a></li>
+<li class="menu-item"><a href="https://wordpress.org/news/" data-title="Come here for the latest scoop.">Blog</a></li>
+<li class="menu-item"><a href="https://wordpress.org/hosting/" data-title="Find a home for your blog.">Hosting</a></li>
+<li id="download" class="button download-button menu-item"><a href="https://wordpress.org/download/" data-title="Get it. Got it? Good.">Get WordPress</a></li>
+</ul>
+</nav>
+		<div style="clear:both"></div>
+	</div>
+</div>
+
+
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#main">Skip to content</a>
+
+	<div id="content" class="site-content">
+		<header id="masthead" class="site-header " role="banner">
+			<div class="site-branding">
+									<p class="site-title"><a href="https://wordpress.org/support/" rel="home">Support</a></p>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<button class="menu-toggle dashicons dashicons-arrow-down-alt2" aria-controls="primary-menu" aria-expanded="false" aria-label="Primary Menu"></button>
+						<div id="primary-menu" class="menu">
+							<ul class=" nav-menu">
+																<li class="page_item"><a href="https://wordpress.org/support/forums/">Forums</a></li>
+																<li class="page_item"><a href="https://wordpress.org/support/guidelines/">Guidelines</a></li>
+																<li class="page_item"><a href="https://wordpress.org/support/">Documentation</a></li>
+																<li class="page_item"><a href="https://make.wordpress.org/support/handbook/">Get Involved</a></li>
+																<li>
+
+<form role="search" method="get" class="search-form" action="https://wordpress.org/support/">
+	<label for="s" class="screen-reader-text">Search for:</label>
+		<input type="search" id="s" class="search-field" placeholder="Search forums" value="" name="s">
+			<input type="hidden" name="tab" value="support">
+		<button class="button button-primary button-search"><i class="dashicons dashicons-search"></i><span class="screen-reader-text">Search forums</span></button>
+</form>
+
+</li>
+							</ul>
+						</div>
+					</nav><!-- #site-navigation -->
+							</div><!-- .site-branding -->
+		</header><!-- #masthead -->
+		<div id="lang-guess-wrap"></div>
+
+<main id="main" class="site-main" role="main">
+	
+	<div class="entry-content">
+		
+			
+<div class="bbp-breadcrumb"><p><a href="https://wordpress.org/support" class="bbp-breadcrumb-home">Support</a> <span class="bbp-breadcrumb-sep">»</span> <a href="https://wordpress.org/support/forum/how-to-and-troubleshooting/" class="bbp-breadcrumb-forum">Fixing WordPress</a> <span class="bbp-breadcrumb-sep">»</span> <span class="bbp-breadcrumb-current">Need help with .htaccess file</span></p></div>
+<header class="page-header">
+	<h1 class="page-title">Need help with .htaccess file</h1>
+</header>
+
+<div id="bbpress-forums">
+
+	
+	
+		
+			
+
+<ul id="bbp-topic-10733803-lead" class="bbp-lead-topic">
+
+	<li class="bbp-body">
+
+		<div id="post-10733803" class="loop-item--1 user-id-10193191 bbp-parent-forum-21260 even  post-10733803 topic type-topic status-publish hentry">
+							<div class="topic-indicator">
+					<span class="dashicons dashicons-lock" title="Closed Topic"></span>
+				</div>
+			
+			<div class="bbp-topic-author">
+
+				
+				<a href="https://wordpress.org/support/users/einstem/" title="View einstem&#39;s profile" class="bbp-author-link"><span class="bbp-author-avatar"><img loading="lazy" alt="" src="./Need help with .htaccess file _ WordPress.org_files/466f961717207474d3be8a8b76113b45.jpeg" srcset="https://secure.gravatar.com/avatar/466f961717207474d3be8a8b76113b45?s=200&amp;d=retro&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100"></span><span class="bbp-author-name">einstem</span></a>
+				<p class="bbp-user-nicename">(@einstem)</p><br>
+				
+				
+				<p class="bbp-topic-post-date"><a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/" title="September 28, 2018 at 6:26 pm" class="bbp-topic-permalink">2 years, 8 months ago</a></p>
+
+				
+				
+			</div><!-- .bbp-topic-author -->
+
+			<div class="bbp-topic-content">
+
+				
+				<p>I am working for a small organization to update their site to a new/fresh WordPress theme.  Things are going well, but I do not know that much about .HTACCESS files and theirs seems to have a lot of stuff in it that I don’t know what it does or if it is even still correct or valuable.  The site was built using a “custom theme” and is probably over 10 years old, and so I want to get is all streamlined and updated.  I know some basic WordPress and CSS, but .HTACCESS is a bit beyond me, although I do know that it helps control the way the Apache server behaves and controls things like directory browsing and redirects.</p>
+<p>I want to make sure that this file is clean and nothing old/unnecessary in it, as well as to add in any key security or performance measures that may be missing.</p>
+<p>I think some of the stuff in the .HTACCESS file seems ok and appears to be standard .HTACCESS stuff for wordpress sites, but other lines I’m not sure if they should stay in or should come out.  </p>
+<p>For example, do you need the code about the output compression, and is that only for php4, which probably isn’t even being used by our site anymore?</p>
+<p>And some things look like they are already commented out (with the “#” in front of them, so I presume I can just remove them entirely from the file?  </p>
+<p>And toward the end, it looks like a whole bunch of 301 redirects, but not in a format I am familar with.. and I’m not sure all these domains are even in existence any more by this organization, so can I just remove any lines for domains that don’t exist anymore?</p>
+<p>Thanks for the help.</p>
+<p>Regards,</p>
+<p>Michael</p>
+<p>Here is the .HTACCESS file contents below.</p>
+<p>——————————————————</p>
+<p># <a href="http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/" rel="nofollow ugc">http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/</a></p>
+<p># secure htaccess file<br>
+&lt;Files .htaccess&gt;<br>
+ order allow,deny<br>
+ deny from all<br>
+&lt;/Files&gt;</p>
+<p># preserve bandwidth for PHP enabled servers<br>
+&lt;ifmodule mod_php4.c&gt;<br>
+ php_value zlib.output_compression 16386<br>
+&lt;/ifmodule&gt;</p>
+<p># disable the server signature<br>
+ServerSignature Off</p>
+<p># set the server timezone<br>
+SetEnv TZ America/New_York</p>
+<p>#asterisk<br>
+## disable directory browsing<br>
+#Options All -Indexes<br>
+#asterisk</p>
+<p># prevent folder listing<br>
+IndexIgnore .htaccess *.php *.txt</p>
+<p># Use PHP5 as default<br>
+# Use PHP5 Single php.ini as default<br>
+# AddHandler application/x-httpd-php5s .php</p>
+<p># php_value session.save_path ‘/tmp’</p>
+<p>Options +SymLinksIfOwnerMatch</p>
+<p># For security reasons, Option all cannot be overridden.<br>
+#Options All -Indexes<br>
+Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes</p>
+<p>&lt;files wp-config.php&gt;<br>
+Order deny,allow<br>
+deny from all<br>
+&lt;/files&gt;</p>
+<p>RewriteEngine on</p>
+<p>RewriteCond %{HTTP_HOST} ^ioresourcecenter.com [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.ioresourcecenter.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^informationoverloadresourcecenter.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.informationoverloadresourcecenter.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^informationoverloadresourcecenter.org$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.informationoverloadresourcecenter.org$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.informationoverloadresources.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.iorgforum.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^iorgforum.com$ [OR]<br>
+RewriteCond %{HTTP_HOST} ^www.iorgforum.org$<br>
+RewriteRule (.*)$ <a href="http://iorgforum.org/$1" rel="nofollow ugc">http://iorgforum.org/$1</a> [R=301,L]<br>
+#RewriteRule ^/?$ “http\:\/\/informationoverloadresources\.com” [R=301,L]</p>
+<p># BEGIN WordPress<br>
+&lt;IfModule mod_rewrite.c&gt;<br>
+RewriteEngine On<br>
+RewriteBase /<br>
+RewriteRule ^index\.php$ – [L]<br>
+RewriteCond %{REQUEST_FILENAME} !-f<br>
+RewriteCond %{REQUEST_FILENAME} !-d<br>
+RewriteRule . /index.php [L]<br>
+&lt;/IfModule&gt;</p>
+<p># END WordPress</p>
+
+				
+			</div><!-- .bbp-topic-content -->
+
+			<span class="bbp-admin-links"></span>
+		</div><!-- #post-10733803 -->
+
+	</li><!-- .bbp-body -->
+
+</ul><!-- #topic-10733803-replies -->
+
+
+		
+		
+			
+<div class="bbp-pagination">
+	<div class="bbp-pagination-count">Viewing 4 replies - 1 through 4 (of 4 total)</div>
+	<div class="bbp-pagination-links"></div>
+</div>
+
+
+			
+<ul id="topic-10733803-replies" class="forums bbp-replies">
+
+	<li class="bbp-body">
+
+		
+			
+<div id="post-10734166" class="loop-item-0 user-id-5580928 bbp-parent-forum-21260 bbp-parent-topic-10733803 bbp-reply-position-1 odd  post-10734166 reply type-reply status-publish hentry by-moderator author-has-badge">
+
+	<div class="bbp-reply-author">
+
+		<span class="author-badge author-badge-moderator" title="This person is a moderator on this forum">Moderator</span>
+		<a href="https://wordpress.org/support/users/t-p/" title="View t-p&#39;s profile" class="bbp-author-link"><span class="bbp-author-avatar"><img loading="lazy" alt="" src="./Need help with .htaccess file _ WordPress.org_files/ebb357c94b799994fcbb4eb3d18af1a9.jpeg" srcset="https://secure.gravatar.com/avatar/ebb357c94b799994fcbb4eb3d18af1a9?s=200&amp;d=retro&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100"></span><span class="bbp-author-name">t-p</span></a>
+		<p class="bbp-user-nicename">(@t-p)</p>
+		
+		
+		<div class="bbp-reply-meta">
+
+		<p class="bbp-reply-post-date"><a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#post-10734166" title="September 28, 2018 at 9:22 pm" class="bbp-reply-permalink">2 years, 8 months ago</a></p>
+
+		
+		
+		</div>
+
+	</div><!-- .bbp-reply-author -->
+
+	<div class="bbp-reply-content">
+
+		
+		<p>What goes in the .htaccess file and what does not, is site specific. </p>
+<p>Here is a general help guide: <a href="https://codex.wordpress.org/htaccess" rel="nofollow ugc">https://codex.wordpress.org/htaccess</a></p>
+
+		
+	</div><!-- .bbp-reply-content -->
+
+	
+	<span class="bbp-admin-links"></span>
+	
+</div><!-- #post-10734166 -->
+
+		
+			
+<div id="post-10734189" class="loop-item-1 user-id-8066896 bbp-parent-forum-21260 bbp-parent-topic-10733803 bbp-reply-position-2 even  post-10734189 reply type-reply status-publish hentry">
+
+	<div class="bbp-reply-author">
+
+		
+		<a href="https://wordpress.org/support/users/swansonphotos/" title="View Pioneer Web Design&#39;s profile" class="bbp-author-link"><span class="bbp-author-avatar"><img loading="lazy" alt="" src="./Need help with .htaccess file _ WordPress.org_files/3adc70038c49a3d4c2bd59c7a5cd8fde" srcset="https://secure.gravatar.com/avatar/3adc70038c49a3d4c2bd59c7a5cd8fde?s=200&amp;d=retro&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100"></span><span class="bbp-author-name">Pioneer Web Design</span></a>
+		<p class="bbp-user-nicename">(@swansonphotos)</p>
+		
+		
+		<div class="bbp-reply-meta">
+
+		<p class="bbp-reply-post-date"><a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#post-10734189" title="September 28, 2018 at 9:44 pm" class="bbp-reply-permalink">2 years, 8 months ago</a></p>
+
+		
+		
+		</div>
+
+	</div><!-- .bbp-reply-author -->
+
+	<div class="bbp-reply-content">
+
+		
+		<p>1. Backup the .htaccess file. You must be able to replace this one if the site goes down. Clearly you have direct access, so make sure you have that file saved and know how to find it (and replace it).</p>
+<p>2. Using FTP or your Host provided File Management tool(s), DELETE the file.</p>
+<p>3. Now, log into the site. Go to admin dashboard (must be admin)&gt;settings&gt;permalinks</p>
+<p>4. Simply save your <strong>current settings</strong>.</p>
+<p>5. Wait a few minutes, then load the site. Is the issue fixed?</p>
+<p>6. We can all check security issues at:</p>
+<p><a href="https://sitecheck.sucuri.net/" rel="nofollow ugc">https://sitecheck.sucuri.net/</a></p>
+
+		
+	</div><!-- .bbp-reply-content -->
+
+	
+	<span class="bbp-admin-links"></span>
+	
+</div><!-- #post-10734189 -->
+
+		
+			
+<div id="post-10735925" class="loop-item-2 user-id-9228675 bbp-parent-forum-21260 bbp-parent-topic-10733803 bbp-reply-position-3 odd  post-10735925 reply type-reply status-publish hentry">
+
+	<div class="bbp-reply-author">
+
+		
+		<a href="https://wordpress.org/support/users/pidengmor/" title="View barnez&#39;s profile" class="bbp-author-link"><span class="bbp-author-avatar"><img loading="lazy" alt="" src="./Need help with .htaccess file _ WordPress.org_files/bd34962caafdcadd53d5ac06a23fe0c3" srcset="https://secure.gravatar.com/avatar/bd34962caafdcadd53d5ac06a23fe0c3?s=200&amp;d=retro&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100"></span><span class="bbp-author-name">barnez</span></a>
+		<p class="bbp-user-nicename">(@pidengmor)</p>
+		
+		
+		<div class="bbp-reply-meta">
+
+		<p class="bbp-reply-post-date"><a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#post-10735925" title="September 29, 2018 at 7:09 pm" class="bbp-reply-permalink">2 years, 8 months ago</a></p>
+
+		
+		
+		</div>
+
+	</div><!-- .bbp-reply-author -->
+
+	<div class="bbp-reply-content">
+
+		
+		<p>Everything as far as </p>
+<pre><code>&lt;files wp-config.php&gt;
+Order deny,allow
+deny from all
+&lt;/files&gt;</code></pre>
+<p>is security rules. Nothing wrong with those being there, but they can be removed.</p>
+<p>The next block starting <code>RewriteEngine on</code> is rewrite rules as you noticed. These are probably for old pages that had some SEO value and then were deleted. To save the SEO benefit, these old pages are now redirected to the homepage.</p>
+<p>The final block are the WordPress permalink rules so that the page urls are written as sitename.com/page-name for example, rather than sitename.com/1236?. </p>
+<p>All the lines starting with the hash symbol <code>#</code> are comments to help understand or remind the function of the rule.  </p>
+<p>As Pioneer Web Design suggested, you should always take a backup of the file before making any changes. </p>
+<p>In summary, I don’t see anything there that would slow the site down. The security rules add another layer of hardening, the rewrite rules will only come into play if those specific pages are requested, and the WordPress rules are essential to have pretty permalinks.</p>
+
+		
+	</div><!-- .bbp-reply-content -->
+
+	
+	<span class="bbp-admin-links"></span>
+	
+</div><!-- #post-10735925 -->
+
+		
+			
+<div id="post-10737851" class="loop-item-3 user-id-10193191 bbp-parent-forum-21260 bbp-parent-topic-10733803 bbp-reply-position-4 even topic-author  post-10737851 reply type-reply status-publish hentry">
+
+	<div class="bbp-reply-author">
+
+		<span class="author-badge author-badge-thread-starter" title="This person created the thread">Thread Starter</span>
+		<a href="https://wordpress.org/support/users/einstem/" title="View einstem&#39;s profile" class="bbp-author-link"><span class="bbp-author-avatar"><img loading="lazy" alt="" src="./Need help with .htaccess file _ WordPress.org_files/466f961717207474d3be8a8b76113b45.jpeg" srcset="https://secure.gravatar.com/avatar/466f961717207474d3be8a8b76113b45?s=200&amp;d=retro&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100"></span><span class="bbp-author-name">einstem</span></a>
+		<p class="bbp-user-nicename">(@einstem)</p>
+		
+		
+		<div class="bbp-reply-meta">
+
+		<p class="bbp-reply-post-date"><a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#post-10737851" title="September 30, 2018 at 11:11 pm" class="bbp-reply-permalink">2 years, 8 months ago</a></p>
+
+		
+		
+		</div>
+
+	</div><!-- .bbp-reply-author -->
+
+	<div class="bbp-reply-content">
+
+		
+		<p>Ok.. Thanks. I don’t think we need all those old redirects anymore – those domains aren’t even owned by this organization any longer, so I plan to comment those out.</p>
+<p>I have figured out most of the other code, but there are two lines that I don’t know what they do that I still need some help with:</p>
+<p>Options +SymLinksIfOwnerMatch</p>
+<p>Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes</p>
+<p>Any idea what the above two lines do?</p>
+<p>Thanks.</p>
+<p>Michael</p>
+
+		
+	</div><!-- .bbp-reply-content -->
+
+	
+	<span class="bbp-admin-links"></span>
+	
+</div><!-- #post-10737851 -->
+
+		
+	</li><!-- .bbp-body -->
+
+</ul><!-- #topic-10733803-replies -->
+
+
+			
+<div class="bbp-pagination">
+	<div class="bbp-pagination-count">Viewing 4 replies - 1 through 4 (of 4 total)</div>
+	<div class="bbp-pagination-links"></div>
+</div>
+
+
+		
+		
+
+	<div id="no-reply-10733803" class="bbp-no-reply">
+		<div class="bbp-template-notice">
+			<ul>
+				<li>The topic ‘Need help with .htaccess file’ is closed to new replies.</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	
+	
+</div>
+
+			</div>
+
+	<div class="entry-meta sidebar">
+
+	
+	
+		
+			
+			<div>
+				<ul class="topic-info">
+					
+	<li class="topic-forum">In: <a href="https://wordpress.org/support/forum/how-to-and-troubleshooting/">Fixing WordPress</a></li>
+			<li class="reply-count">4 replies</li>
+				<li class="voice-count">4 participants</li>
+				<li class="topic-freshness-author">Last reply from: <a href="https://wordpress.org/support/users/einstem/" title="View einstem&#39;s profile" class="bbp-author-link"><span class="bbp-author-name">einstem</span></a></li>
+				<li class="topic-freshness-time">Last activity: <a href="https://wordpress.org/support/topic/need-help-with-htaccess-file-2/#post-10737851" title="September 30, 2018 at 11:11 pm">2 years, 8 months ago</a></li>
+								<li class="topic-resolved">Status: not resolved</li>
+					
+					</ul>
+			</div>
+
+			<div>
+							</div>
+
+			
+		
+		
+			<div>
+				<h4>Views</h4>
+				<ul class="topic-views">
+
+					
+						<li><a class="bbp-view-title" href="https://wordpress.org/support/view/no-replies/">Topics with no replies</a></li>
+
+					
+						<li><a class="bbp-view-title" href="https://wordpress.org/support/view/support-forum-mu/">Non-support topics</a></li>
+
+					
+						<li><a class="bbp-view-title" href="https://wordpress.org/support/view/support-forum-yes/">Resolved topics</a></li>
+
+					
+						<li><a class="bbp-view-title" href="https://wordpress.org/support/view/support-forum-no/">Unresolved topics</a></li>
+
+					
+						<li><a class="bbp-view-title" href="https://wordpress.org/support/view/all-topics/">All topics</a></li>
+
+					
+				</ul>
+			</div>
+
+		
+		
+	
+</div>
+</main>
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+
+<div id="wporg-footer">
+	<div class="wrapper">
+		<ul>
+			<li><a href="https://wordpress.org/about/" title="An introduction to the WordPress project">About</a></li>
+			<li><a href="https://wordpress.org/news/" title="News and Updates">Blog</a></li>
+			<li><a href="https://wordpress.org/hosting/" title="Recommended web hosting providers">Hosting</a></li>
+			<li><a href="https://wordpressfoundation.org/donate/" title="Donate to the WordPress Foundation">Donate</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.org/support/" title="Forums, documentation, and other resources">Support</a></li>
+			<li><a href="https://developer.wordpress.org/" title="Resources for WordPress developers">Developers</a></li>
+			<li><a href="https://make.wordpress.org/" title="Give back to WordPress through code, support, translation and more">Get Involved</a></li>
+			<li><a href="https://learn.wordpress.org/" title="Workshops and training materials">Learn</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.org/showcase/" title="Some of the best WordPress sites on the Web">Showcase</a></li>
+			<li><a href="https://wordpress.org/plugins/" title="Add extra functionality to WordPress">Plugins</a></li>
+			<li><a href="https://wordpress.org/themes/" title="Make your WordPress pretty">Themes</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://central.wordcamp.org/" title="Find a WordPress event near you">WordCamp</a></li>
+			<li><a href="https://wordpress.tv/" title="Videos, tutorials, and WordCamp sessions">WordPress.TV</a></li>
+			<li><a href="https://buddypress.org/" title="A set of plugins to transform your WordPress into a social network">BuddyPress</a></li>
+			<li><a href="https://bbpress.org/" title="Fast, slick forums built on WordPress">bbPress</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.com/?ref=wporg-footer" title="Hassle-free WordPress hosting">WordPress.com</a></li>
+			<li><a href="https://ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a></li>
+			<li><a href="https://wordpress.org/about/privacy/" title="WordPress.org Privacy Policy">Privacy</a></li>
+			<li><a href="https://publiccode.eu/" target="_blank">Public Code</a></li>
+		</ul>
+
+		<ul class="social-media-links">
+			<li><span class="dashicons dashicons-twitter"></span><a href="https://twitter.com/WordPress" title="Follow @WordPress on Twitter">@WordPress</a></li>
+			<li><span class="dashicons dashicons-facebook"></span><a href="https://www.facebook.com/WordPress/" title="Like WordPress on Facebook">WordPress</a></li>
+		</ul>
+	</div>
+
+		<p class="cip cip-image">Code is Poetry.</p>
+</div>
+
+<script src="./Need help with .htaccess file _ WordPress.org_files/navigation.min.js.download"></script>
+
+<link rel="stylesheet" id="wporg-bbp-code-blocks-expand-contract-css" href="./Need help with .htaccess file _ WordPress.org_files/wporg-bbp-code-blocks-expand-contract.css" type="text/css" media="all">
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/hoverintent-js.min.js.download" id="hoverintent-js-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/admin-bar.min.js.download" id="admin-bar-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/photon.min.js.download" id="jetpack-photon-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/editor.min.js.download" id="bbpress-editor-js"></script>
+<script type="text/javascript" id="bbpress-engagements-js-extra">
+/* <![CDATA[ */
+var bbpEngagementJS = {"object_id":"10733803","bbp_ajaxurl":"https:\/\/wordpress.org\/support\/topic\/need-help-with-htaccess-file-2\/?bbp-ajax=true","generic_ajax_error":"Something went wrong. Refresh your browser and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/engagements.min.js.download" id="bbpress-engagements-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/navigation.js.download" id="wporg-support-navigation-js"></script>
+<script type="text/javascript" id="wporg-support-forums-js-extra">
+/* <![CDATA[ */
+var wporgSupport = {"strings":{"approve":"The approval status of this post has been changed.","spam":"The spam status of this post has been changed.","archive":"The archive status of this post has been changed.","action_failed":"Unable to complete the requested action, please try again."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/forums.js.download" id="wporg-support-forums-js"></script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/wp-embed.min.js.download" id="wp-embed-js"></script>
+<script type="text/javascript" id="wporg-bbp-code-blocks-expand-contract-js-extra">
+/* <![CDATA[ */
+var bbpCodeBlocksExpandContract = {"expand":"Expand","contract":"Contract"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Need help with .htaccess file _ WordPress.org_files/wporg-bbp-code-blocks-expand-contract.js.download" id="wporg-bbp-code-blocks-expand-contract-js"></script>
+
+
+</body></html>
